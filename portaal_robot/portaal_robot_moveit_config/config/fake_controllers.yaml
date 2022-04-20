@@ -1,9 +1,9 @@
 controller_list:
-  - name: fake_portaal_robot_controller
+  - name: fake_PortaalRobot_controller
     type: $(arg fake_execution_type)
     joints:
       - horizontal_arm_joint
       - vertical_arm_joint
 initial:  # Define initial robot poses.
-  - group: portaal_robot
+  - group: PortaalRobot
     pose: Home
