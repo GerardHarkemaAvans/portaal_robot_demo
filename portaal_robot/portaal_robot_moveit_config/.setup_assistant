@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: portaal_robot_description
+    relative_path: urdf/portaal_robot.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/portaal_robot.srdf
+  CONFIG:
+    author_name: Gerard Harkema
+    author_email: GA.Harkema@avans.nl
+    generated_timestamp: 1650396603
